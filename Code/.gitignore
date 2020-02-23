@@ -1,0 +1,4 @@
+app/vendor
+app/stylesheets
+node_modules
+csvdata/

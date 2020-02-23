@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" ng-cloak class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Google Earth</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="vendor/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="vendor/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/cesium/Build/Cesium/Widgets/widgets.css">
+  <link rel="stylesheet" href="stylesheets/index.css">
+
+  <script src="vendor/html5-boilerplate/dist/js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="vendor/jquery/dist/jquery.min.js"></script>
+</head>
+
+<body id="page-top">
+  <!-- <base href="/"> -->
+  <!-- [if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif] -->
+
+  <div id="main">
+    <div id="cesiumContainer" class="fullSize"></div>
+    <div id="loadingOverlay"></div>
+    <div id="toolbar"></div>
+  </div>
+
+  <button id="playTour" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+    Play
+  </button>
+
+  <button id="stopTour" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+    Stop
+  </button>
+
+  <button id="explorationMode" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+    Exploration Mode
+  </button>
+
+  <button id="radarMode" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+    Radar Watch
+  </button>
+
+  <input id="radarInput" class="form-control" type="text" placeholder="Enter radar watch area(m)"/>
+
+  <div class="info">
+    <div class="infopoint">
+      <li>Click on the ? help button on the top right for navigation instructions</li>
+    </div>
+    <div class="infopoint">
+      <li>Double-click on the globe to view coordinate information and height</li>
+    </div>
+    <div class="infopoint">
+      <li>Toggle exploration mode to view avg, max and min height in an area</li>
+    </div>
+    <div class="infopoint">
+      <li>Toggle radar mode to see where to place radar in an area</li>
+    </div>
+        <div class="infopoint">
+      <li>Click on play to start globe narration</li>
+    </div>
+  </div>
+
+  <script src="vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="vendor/three/build/three.min.js"></script>
+  <script src="vendor/cesium/Build/Cesium/Cesium.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAiJX7Sc3wxRN5FSN-iC9C5H7cOeN2kTc&libraries=geometry"></script>
+
+  <script src="index.js"></script>
+  <script src="components/helpers.js"></script>
+
+</body>
+
+</html>

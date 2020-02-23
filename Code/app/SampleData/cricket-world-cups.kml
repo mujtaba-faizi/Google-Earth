@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document id="Document_WorldCups">
+    <name>Cricket World Cups (Since 1900)</name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Folder id="Folder_WorldCup_1992">
+      <name>AutoPlay</name>
+      <visibility>1</visibility>
+      <open>0</open>
+    </Folder>
+    <gx:Tour id="Tour_Pakistan_Wins">
+      <name>Matches won by Pakistan</name>
+      <gx:Playlist>
+        <gx:Wait id="Wait_Start">
+          <gx:duration>0.2</gx:duration>
+        </gx:Wait>
+
+        <gx:FlyTo id="FlyTo_Match_7">
+          <gx:duration>4</gx:duration>
+          <LookAt id="LookAt_Match_7">
+            <longitude>147.3727193</longitude>
+            <latitude>-42.8771962</latitude>
+            <range>800.0</range>
+          </LookAt>
+        </gx:FlyTo>
+
+        <gx:Wait id="Wait_Match_7">
+          <gx:duration>4</gx:duration>
+        </gx:Wait>
+
+        <gx:FlyTo id="FlyTo_Match_26">
+          <gx:duration>4</gx:duration>
+          <LookAt id="LookAt_Match_26">
+            <longitude>115.8773432</longitude>
+            <latitude>-31.9598075</latitude>
+            <range>800.0</range>
+          </LookAt>
+        </gx:FlyTo>
+
+        <gx:Wait id="Wait_Match_26">
+          <gx:duration>4</gx:duration>
+        </gx:Wait>
+
+        <gx:FlyTo id="FlyTo_Match_33">
+          <gx:duration>1</gx:duration>
+          <LookAt id="LookAt_Match_33">
+            <longitude>115.8773432</longitude>
+            <latitude>-31.9598075</latitude>
+            <range>800.0</range>
+          </LookAt>
+        </gx:FlyTo>
+
+        <gx:Wait id="Wait_Match_33">
+          <gx:duration>4</gx:duration>
+        </gx:Wait>
+
+        <gx:FlyTo id="FlyTo_Match_34">
+          <gx:duration>4</gx:duration>
+          <LookAt id="LookAt_Match_34">
+            <longitude>172.6019042</longitude>
+            <latitude>-43.5438705</latitude>
+            <range>800.0</range>
+          </LookAt>
+        </gx:FlyTo>
+
+        <gx:Wait id="Wait_Match_34">
+          <gx:duration>4</gx:duration>
+        </gx:Wait>
+
+        <gx:FlyTo id="FlyTo_Match_37">
+          <gx:duration>4</gx:duration>
+          <LookAt id="LookAt_Match_37">
+            <longitude>174.7425675</longitude>
+            <latitude>-36.8749495</latitude>
+            <range>800.0</range>
+          </LookAt>
+        </gx:FlyTo>
+
+        <gx:Wait id="Wait_Match_37">
+          <gx:duration>4</gx:duration>
+        </gx:Wait>
+
+        <gx:FlyTo id="FlyTo_Match_39">
+          <gx:duration>4</gx:duration>
+          <LookAt id="LookAt_Match_39">
+            <longitude>144.9812606</longitude>
+            <latitude>-37.8199626</latitude>
+            <range>800.0</range>
+          </LookAt>
+        </gx:FlyTo>
+
+        <gx:Wait id="Wait_Match_39">
+          <gx:duration>4</gx:duration>
+        </gx:Wait>
+      </gx:Playlist>
+    </gx:Tour>
+
+    <!-- <Folder>
+      <name>Points and polygons</name>
+      <Style id="pushpin">
+        <IconStyle>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+
+      <Placemark id="Placemark_Match_7">
+        <name>PAK vs. Zim</name>
+        <styleUrl>#pushpin</styleUrl>
+        <description>
+          7th match of the series played at Bellerive Oval, Australia. Pakistan won by 53 runs.
+        </description>
+        <Point>
+          <coordinates>147.3727193,-42.8771962</coordinates>
+        </Point>
+      </Placemark>
+    </Folder> -->
+  </Document>
+</kml>

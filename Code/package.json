@@ -1,0 +1,36 @@
+{
+  "name": "cgassign3",
+  "version": "1.0.0",
+  "description": "cgassign3",
+  "main": "app/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp build",
+    "less": "gulp less",
+    "prerelease": "webpack && gulp build --env=production",
+    "release": "build",
+    "start": "webpack && gulp start",
+    "webpack": "webpack"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0beta",
+    "cesium": "^1.39.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "fs-jetpack": "^1.2.0",
+    "gl-matrix": "^2.4.0",
+    "gulp": "^3.9.1",
+    "gulp-batch": "^1.0.5",
+    "gulp-less": "^3.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "gulp-webserver": "^0.9.1",
+    "html5-boilerplate": "^6.0.0",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "popper.js": "^1.12.3",
+    "rollup": "^0.48.2",
+    "three": "^0.88.0",
+    "webpack": "^3.0.0"
+  }
+}
